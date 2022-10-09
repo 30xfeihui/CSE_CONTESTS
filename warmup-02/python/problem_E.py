@@ -11,11 +11,11 @@ if __name__ == "__main__":
 			if strr[i]=='1':
 				position+=8
 			if strr[i+1]=='1':
-                position+=4
-            if strr[i+2]=='1':
-                position+=2
-            if strr[i+3]=='1':
-                position+=1
-        	print(encode[position],end='')
-        	position=0
-        print()
+                		position+=4
+            		if strr[i+2]=='1':
+                		position+=2
+            		if strr[i+3]=='1':
+                		position+=1
+        		print(encode[position],end='')
+        		position=0
+        	print()
